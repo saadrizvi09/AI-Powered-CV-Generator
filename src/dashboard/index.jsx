@@ -3,7 +3,7 @@ import AddResume from './components/addResume.jsx';
 import { useUser } from '@clerk/clerk-react';
 import GlobalApi from './../../service/GlobalApi.js';
 import ResumeCardItem from './components/ResumeCardItem.jsx';
-import { Loader2Icon } from 'lucide-react'; // Import Loader2Icon for loading state
+import { Loader2Icon, Notebook } from 'lucide-react'; // Import Loader2Icon for loading state
 
 function Dashboard() {
   const { user } = useUser();
