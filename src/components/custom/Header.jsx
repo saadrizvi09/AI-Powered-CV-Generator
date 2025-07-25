@@ -14,15 +14,7 @@ function Header() {
         <div className='flex justify-between items-center h-16'>
           {/* Logo Section */}
           <div className='flex-shrink-0'>
-            <Link to='/' className='flex items-center'>
-              <img
-                src='/logo.svg'
-                alt='AI Resume Builder Logo'
-                width={120}
-                height={40}
-                className='cursor-pointer transition-transform duration-200 hover:scale-105'
-              />
-            </Link>
+           
           </div>
 
           {/* Desktop Navigation Links (hidden on mobile) */}

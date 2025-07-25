@@ -63,8 +63,7 @@ function Dashboard() {
         ) : (
           // Data Loaded: Display actual resumes or an empty state message
           <>
-            {resumeList.length > 0 ? (
-              // Map through the resume list and render ResumeCardItem for each
+            {Array.isArray(resumeList) && resumeList.length > 0 ? (
               resumeList.map((resume, index) => (
                 <ResumeCardItem
                   resume={resume}
