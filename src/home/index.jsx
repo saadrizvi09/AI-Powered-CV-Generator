@@ -25,11 +25,7 @@ function Home() {
                 Start Building Your CV
               </Button>
             </Link>
-            <Link to='/auth/sign-up'>
-              <Button variant='outline' className='bg-white text-blue-600 border-blue-600 hover:bg-blue-50 hover:text-blue-700 font-semibold py-3 px-8 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105'>
-                Learn More
-              </Button>
-            </Link>
+           
           </div>
         </div>
       </section>
